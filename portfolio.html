@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lakshay Sharma - Portfolio</title>
+  <meta name="description" content="Professional portfolio of John Doe - Web Developer and Designer">
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="#home">LS</a>
+      </div>
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item">
+          <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="#resume" class="nav-link">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <button class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-image">
+          <img src="Images/WhatsApp Image 2025-07-14 at 18.10.28_4065a15b.jpg" alt="John Doe" class="profile-img">
+        </div>
+        <div class="hero-text">
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Lakshay Sharma</span>
+          </h1>
+          <p class="hero-subtitle typing-text" id="typing-text">Web Developer & Designer</p>
+          <p class="hero-description">
+            I create beautiful, responsive websites and web applications that provide exceptional user experiences.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <a href="#about" class="scroll-arrow">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Get to know me better</p>
+      </div>
+      <div class="about-content">
+        <div class="about-text">
+          <h3>Hello! I'm Lakshay Sharma</h3>
+          <p>
+            I'm a passionate web developer and designer with creating digital solutions that
+            make a difference. I specialize in front-end development, user experience design, and modern web
+            technologies.
+          </p>
+          <p>
+            When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or
+            enjoying a good cup of coffee while sketching new design ideas.
+          </p>
+
+        </div>
+        <div class="about-image">
+          <img src="Images/IMG_20250807_140318-01.jpeg" alt="About me" class="about-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">Technologies I work with</p>
+      </div>
+      <div class="skills-grid">
+        <!-- Frontend Skills -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h3>HTML5</h3>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h3>CSS</h3>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-java"></i>
+          </div>
+          <h3>Java</h3>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-c"></i>
+          </div>
+          <h3>C</h3>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-c"></i>
+          </div>
+          <h3>C++</h3>
+        </div>
+
+        <!-- <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                </div> -->
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-python"></i>
+          </div>
+          <h3>Python</h3>
+        </div>
+
+        <!-- <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>MongoDB</h3>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Express.js</h3>
+                </div> -->
+
+        <!-- Tools & Others -->
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-git-alt"></i>
+          </div>
+          <h3>Git</h3>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-github"></i>
+          </div>
+          <h3>GitHub</h3>
+        </div>
+
+        <!-- <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-figma"></i>
+                    </div>
+                    <h3>Figma</h3>
+                </div> -->
+
+        <!-- <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-sass"></i>
+                    </div>
+                    <h3>Sass</h3>
+                </div> -->
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-bootstrap"></i>
+          </div>
+          <h3>Bootstrap</h3>
+        </div>
+
+        <!-- <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Tailwind</h3> -->
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">Some of my work</p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Images/Screenshot 2025-08-07 142922.png" alt="E-commerce Platform">
+            <div class="project-overlay">
+              <div class="project-links">
+                <!-- <a href="#" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a> -->
+                <a href="https://lakshayy2406.github.io/Quick-Aid/" class="project-link" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>E-commerce Platform</h3>
+            <p>Quick Aid:
+              A user-friendly web platform providing instant access to essential helpline services—hospitals, home
+              services, vehicle support, and daily needs. Designed for quick navigation, responsive use, and fast
+              emergency assistance through well-organized service categories.
+            </p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Bootstrap</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Images/IMG_20241201_142155.jpg" alt="Task Management App">
+            <div class="project-overlay">
+              <div class="project-links">
+                <!-- <a href="#" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a> -->
+                <a href="https://lakshayy2406.github.io/Smart-Toll-Management/" class="project-link" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Smart Toll-Gate Management System</h3>
+            <p>Smart Toll:
+              An RFID and Arduino-based system for automated toll collection and vehicle identification. Enables
+              contactless access, reduces traffic, minimizes manual work, and ensures real-time, accurate toll
+              operations.
+            </p>
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Bootstrap</span>
+              <span>Java Script</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="project-card">
+          <div class="project-image">
+            <img src="/placeholder.svg?height=250&width=400" alt="Weather App">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Weather App</h3>
+            <p>A responsive weather application that provides current weather conditions and forecasts using
+              OpenWeatherMap API with beautiful animations.</p>
+            <div class="project-tech">
+              <span>JavaScript</span>
+              <span>API</span>
+              <span>CSS3</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="/placeholder.svg?height=250&width=400" alt="Restaurant Website">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Restaurant Website</h3>
+            <p>A modern restaurant website with online reservation system, menu display, and customer reviews. Fully
+              responsive and SEO optimized.</p>
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+          </div> -->
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Resume</h2>
+        <p class="section-subtitle">My professional journey</p>
+      </div>
+      <div class="resume-content">
+        <div class="resume-preview">
+          <div class="resume-card">
+            <i class="fas fa-file-pdf resume-icon"></i>
+            <h3>My Resume</h3>
+            <p>Get a detailed overview of my projects, education, and skills in PDF format.</p>
+            <div class="">
+              <a href="#" class="btn btn-secondary" target="_blank">
+                <i class="fas fa-eye"></i>
+                View
+              </a>
+              <!-- <a href="#" class="btn btn-secondary" target="_blank">
+                <i class="fas fa-eye"></i>
+                View
+              </a> -->
+            </div>
+          </div>
+        </div>
+        <div class="resume-highlights">
+          <div class="highlight-item">
+            <div class="highlight-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="highlight-content">
+              <h4>Education</h4>
+              <p>Bachelor's in Computer Appliction (2023-2026)<br>MDSU University</p>
+            </div>
+          </div>
+          <!-- <div class="highlight-item">
+            <div class="highlight-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <div class="highlight-content">
+              <h4>Experience</h4>
+              <p>5+ years in web development<br>Frontend & Full-stack</p>
+            </div>
+          </div> -->
+          <!-- <div class="highlight-item">
+            <div class="highlight-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <div class="highlight-content">
+              <h4>Certifications</h4>
+              <p>AWS Certified Developer<br>Google Analytics Certified</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's work together</p>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Let's talk about your project</h3>
+          <p>I'm always interested in new opportunities and exciting projects.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="lakshayvaishnav2406@gmail.com" style="text-decoration: none;">
+                  <p>lakshayvaishnav2406@gmail.com</p>
+                </a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+919694231303" style="text-decoration: none;">
+                  <p>+91 9694231303</p>
+                </a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Ajmer, Rajasthan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/Lakshayy2406" class="social-link" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/lakshay-sharma-508002326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              class="social-link" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/mr_vaishnav_2406?utm_source=qr&igsh=OTRwNWFzc3Z5ems4" class="social-link"
+              target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+
+          </div>
+        </div>
+
+        <!-- <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <span class="error-message" id="name-error"></span>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <span class="error-message" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            <span class="error-message" id="subject-error"></span>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            <span class="error-message" id="message-error"></span>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <span class="btn-text">Send Message</span>
+            <span class="btn-loading" style="display: none;">
+              <i class="fas fa-spinner fa-spin"></i>
+            </span>
+          </button>
+        </form> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Lakshay Sharma. All rights reserved.</p>
+        <p>Made with <i class="fas fa-heart"></i> and lots of coffee</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
