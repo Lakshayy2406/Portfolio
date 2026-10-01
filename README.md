@@ -27,4 +27,4 @@ Open `index.html` in your browser, or use VS Code Live Server.
 
 ## Author
 
-**Lakshay Vaishnav** · [GitHub](https://github.com/Lakshayy2406)
+**Lakshay Sharma** · [GitHub](https://github.com/Lakshayy2406)
