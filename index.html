@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lakshay Sharma - Portfolio</title>
   <meta name="description" content="Professional portfolio of Lakshay Sharma - Web Developer and Designer">
-
-  <!-- FontAwesome Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
   <nav class="navbar" id="navbar">
     <div class="nav-container">
@@ -36,17 +29,12 @@
   <section id="home" class="hero">
     <div class="hero-container">
       <div class="hero-content">
-        <div class="hero-image">
-          <img src="Images/WhatsApp Image 2025-07-14 at 18.10.28_4065a15b.jpg" alt="Lakshay Sharma" class="profile-img">
-        </div>
+        <div class="hero-image"><img src="Images/WhatsApp Image 2025-07-14 at 18.10.28_4065a15b.jpg" alt="Lakshay Sharma" class="profile-img"></div>
         <div class="hero-text">
           <h1 class="hero-title">Hi, I'm <span class="highlight">Lakshay Sharma</span></h1>
           <p class="hero-subtitle typing-text" id="typing-text">Web Developer & Designer</p>
           <p class="hero-description">I create beautiful, responsive websites and web applications that provide exceptional user experiences.</p>
-          <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">View My Work</a>
-            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-          </div>
+          <div class="hero-buttons"><a href="#projects" class="btn btn-primary">View My Work</a><a href="#contact" class="btn btn-secondary">Get In Touch</a></div>
         </div>
       </div>
       <div class="scroll-down"><a href="#about" class="scroll-arrow"><i class="fas fa-chevron-down"></i></a></div>
@@ -94,36 +82,7 @@
       <div class="section-header"><h2 class="section-title">Projects</h2><p class="section-subtitle">Some of my work</p></div>
       <div class="projects-grid">
 
-        <div class="project-card">
-          <div class="project-image">
-            <img src="Images/quick-aid-thumbnail.svg" alt="Quick Aid emergency helpline platform thumbnail">
-            <div class="project-overlay"><div class="project-links">
-              <a href="https://lakshayy2406.github.io/Quick-Aid/" class="project-link" target="_blank" rel="noopener" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
-              <a href="https://github.com/Lakshayy2406/Quick-Aid" class="project-link" target="_blank" rel="noopener" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
-            </div></div>
-          </div>
-          <div class="project-content">
-            <h3>Quick Aid – Emergency Helpline Platform</h3>
-            <p>Quick Aid: A user-friendly web platform providing instant access to essential helpline services—hospitals, home services, vehicle support, and daily needs. Designed for quick navigation, responsive use, and fast emergency assistance through well-organized service categories.</p>
-            <div class="project-tech"><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span></div>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-image">
-            <img src="Images/smart-toll-thumbnail.svg" alt="Smart Toll-Gate Management System thumbnail">
-            <div class="project-overlay"><div class="project-links">
-              <a href="https://lakshayy2406.github.io/Smart-Toll-Management/" class="project-link" target="_blank" rel="noopener" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
-              <a href="https://github.com/Lakshayy2406/Smart-Toll-Management" class="project-link" target="_blank" rel="noopener" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
-            </div></div>
-          </div>
-          <div class="project-content">
-            <h3>Smart Toll-Gate Management System</h3>
-            <p>Smart Toll: An RFID and Arduino-based system for automated toll collection and vehicle identification. Enables contactless access, reduces traffic, minimizes manual work, and ensures real-time, accurate toll operations.</p>
-            <div class="project-tech"><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>Java Script</span></div>
-          </div>
-        </div>
-
+        <!-- 1. Temple Finance System -->
         <div class="project-card">
           <div class="project-image">
             <img src="Images/temple-finance-thumbnail.svg" alt="Temple Finance System dashboard thumbnail">
@@ -135,6 +94,19 @@
           <div class="project-content"><h3>Temple Finance System</h3><p>A web-based application for managing temple income and expenses, with secure data storage, automatic date and time tracking, financial records, and reporting.</p><div class="project-tech"><span>JavaScript</span><span>Supabase</span><span>SQL</span><span>HTML</span><span>CSS</span></div></div>
         </div>
 
+        <!-- 2. Smart Toll-Gate Management System -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Images/smart-toll-thumbnail.svg" alt="Smart Toll-Gate Management System thumbnail">
+            <div class="project-overlay"><div class="project-links">
+              <a href="https://lakshayy2406.github.io/Smart-Toll-Management/" class="project-link" target="_blank" rel="noopener" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/Lakshayy2406/Smart-Toll-Management" class="project-link" target="_blank" rel="noopener" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+            </div></div>
+          </div>
+          <div class="project-content"><h3>Smart Toll-Gate Management System</h3><p>Smart Toll: An RFID and Arduino-based system for automated toll collection and vehicle identification. Enables contactless access, reduces traffic, minimizes manual work, and ensures real-time, accurate toll operations.</p><div class="project-tech"><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>Java Script</span></div></div>
+        </div>
+
+        <!-- 3. Strict Study Assistant -->
         <div class="project-card">
           <div class="project-image">
             <img src="Images/strict-study-thumbnail.svg" alt="Strict Study Assistant AI study interface thumbnail">
@@ -146,6 +118,18 @@
           <div class="project-content"><h3>Strict Study Assistant</h3><p>An AI-powered study assistant built for a hackathon using the Google Gemini API to support focused and structured learning.</p><div class="project-tech"><span>Google Gemini API</span><span>JavaScript</span><span>HTML</span><span>CSS</span></div></div>
         </div>
 
+        <!-- 4. Quick Aid -->
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Images/quick-aid-thumbnail.svg" alt="Quick Aid emergency helpline platform thumbnail">
+            <div class="project-overlay"><div class="project-links">
+              <a href="https://lakshayy2406.github.io/Quick-Aid/" class="project-link" target="_blank" rel="noopener" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://github.com/Lakshayy2406/Quick-Aid" class="project-link" target="_blank" rel="noopener" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+            </div></div>
+          </div>
+          <div class="project-content"><h3>Quick Aid – Emergency Helpline Platform</h3><p>Quick Aid: A user-friendly web platform providing instant access to essential helpline services—hospitals, home services, vehicle support, and daily needs. Designed for quick navigation, responsive use, and fast emergency assistance through well-organized service categories.</p><div class="project-tech"><span>HTML</span><span>CSS</span><span>Bootstrap</span><span>JavaScript</span></div></div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -154,20 +138,15 @@
     <div class="container">
       <div class="section-header"><h2 class="section-title">Resume</h2><p class="section-subtitle">My professional journey</p></div>
       <div class="resume-content">
-        <div class="resume-preview">
-          <div class="resume-card">
-            <i class="fas fa-file-pdf resume-icon"></i>
-            <h3>My Resume</h3>
-            <p>Get a detailed overview of my projects, education, and skills in PDF format.</p>
-            <div><a href="https://drive.google.com/file/d/1SevTaJCsjXabOO85gZ4Mz3mA7Y0PdFPp/view?usp=drive_link" class="btn btn-secondary" target="_blank"><i class="fas fa-eye"></i> View</a></div>
-          </div>
-        </div>
-        <div class="resume-highlights">
-          <div class="highlight-item">
-            <div class="highlight-icon"><i class="fas fa-graduation-cap"></i></div>
-            <div class="highlight-content"><h4>Education</h4><p>Bachelor's in Computer Appliction (2023-2026)<br>MDSU University</p></div>
-          </div>
-        </div>
+        <div class="resume-preview"><div class="resume-card">
+          <i class="fas fa-file-pdf resume-icon"></i><h3>My Resume</h3>
+          <p>Get a detailed overview of my projects, education, and skills in PDF format.</p>
+          <div><a href="https://drive.google.com/file/d/1SevTaJCsjXabOO85gZ4Mz3mA7Y0PdFPp/view?usp=drive_link" class="btn btn-secondary" target="_blank"><i class="fas fa-eye"></i> View</a></div>
+        </div></div>
+        <div class="resume-highlights"><div class="highlight-item">
+          <div class="highlight-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="highlight-content"><h4>Education</h4><p>Bachelor's in Computer Appliction (2023-2026)<br>MDSU University</p></div>
+        </div></div>
       </div>
     </div>
   </section>
@@ -175,29 +154,23 @@
   <section id="contact" class="contact">
     <div class="container">
       <div class="section-header"><h2 class="section-title">Get In Touch</h2><p class="section-subtitle">Let's work together</p></div>
-      <div class="contact-content">
-        <div class="contact-info">
-          <h3>Let's talk about your project</h3>
-          <p>I'm always interested in new opportunities and exciting projects.</p>
-          <div class="contact-details">
-            <div class="contact-item"><i class="fas fa-envelope"></i><div><h4>Email</h4><a href="mailto:lakshayvaishnav2406@gmail.com" style="text-decoration:none;"><p>lakshayvaishnav2406@gmail.com</p></a></div></div>
-            <div class="contact-item"><i class="fas fa-phone"></i><div><h4>Phone</h4><a href="tel:+919694231303" style="text-decoration:none;"><p>+91 9694231303</p></a></div></div>
-            <div class="contact-item"><i class="fas fa-map-marker-alt"></i><div><h4>Location</h4><p>Ajmer, Rajasthan</p></div></div>
-          </div>
-          <div class="social-links">
-            <a href="https://github.com/Lakshayy2406" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/lakshay-sharma-43b056423/" class="social-link" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.instagram.com/mr_vaishnav_2406?utm_source=qr&igsh=OTRwNWFzc3Z5ems4" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
-          </div>
+      <div class="contact-content"><div class="contact-info">
+        <h3>Let's talk about your project</h3><p>I'm always interested in new opportunities and exciting projects.</p>
+        <div class="contact-details">
+          <div class="contact-item"><i class="fas fa-envelope"></i><div><h4>Email</h4><a href="mailto:lakshayvaishnav2406@gmail.com" style="text-decoration:none;"><p>lakshayvaishnav2406@gmail.com</p></a></div></div>
+          <div class="contact-item"><i class="fas fa-phone"></i><div><h4>Phone</h4><a href="tel:+919694231303" style="text-decoration:none;"><p>+91 9694231303</p></a></div></div>
+          <div class="contact-item"><i class="fas fa-map-marker-alt"></i><div><h4>Location</h4><p>Ajmer, Rajasthan</p></div></div>
         </div>
-      </div>
+        <div class="social-links">
+          <a href="https://github.com/Lakshayy2406" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/lakshay-sharma-43b056423/" class="social-link" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/mr_vaishnav_2406?utm_source=qr&igsh=OTRwNWFzc3Z5ems4" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div></div>
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="container"><div class="footer-content"><p>&copy; 2026 Lakshay Sharma. All rights reserved.</p><p>Made with <i class="fas fa-heart"></i> and lots of coffee</p></div></div>
-  </footer>
-
+  <footer class="footer"><div class="container"><div class="footer-content"><p>&copy; 2026 Lakshay Sharma. All rights reserved.</p><p>Made with <i class="fas fa-heart"></i> and lots of coffee</p></div></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
